@@ -1,6 +1,6 @@
 FROM        --platform=$TARGETOS/$TARGETARCH python:2.7-slim
 
-LABEL       author="Michael Parker" maintainer="parker@pterodactyl.io"
+LABEL       author="Raze Nodes" maintainer="samir@razenodes.shop"
 
 RUN         apt update \
             && apt -y install git gcc g++ ca-certificates dnsutils curl iproute2 ffmpeg procps tini \
