@@ -1,6 +1,6 @@
 FROM        --platform=$TARGETOS/$TARGETARCH node:18-alpine
 
-LABEL       author="Torsten Widmann" maintainer="info@goover.de"
+LABEL       author="Raze Nodes" maintainer="samir@razenodes.shop"
 LABEL       org.opencontainers.image.source="https://github.com/gOOvER/own-pterodactyl-images"
 LABEL       org.opencontainers.image.licenses=MIT
 
