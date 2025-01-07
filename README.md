@@ -4,7 +4,7 @@ A curated collection of core images that can be used with Pterodactyl's Egg syst
 periodically to ensure dependencies are always up-to-date.
 
 Images are hosted on `ghcr.io` and exist under the `games`, `installers`, and `yolks` spaces. The following logic
-is used when determining which space an image will live under:
+is used when determining which space an image will live under;
 
 * `games` — anything within the `games` folder in the repository. These are images built for running a specific game
 or type of game.
